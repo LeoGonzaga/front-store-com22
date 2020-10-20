@@ -1,5 +1,5 @@
 # FrontCom222
-
+![alt text](https://github.com/LeoGonzaga/front-store-com22/blob/main/54258484-cdc1-4e93-b0f9-f703f96cc64e.jfif)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
 ## Development server
