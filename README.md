@@ -1,4 +1,4 @@
-# FrontCom222
+# Front Angular - Matéria COM222
 ![alt text](https://github.com/LeoGonzaga/front-store-com22/blob/main/02c81ae9-b32a-4dbd-a81a-0d3cdcd4a67f.jpg)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
