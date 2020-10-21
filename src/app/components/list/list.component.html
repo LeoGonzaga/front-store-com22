@@ -1,0 +1,42 @@
+<div class="menu">
+  <div class="header">
+    <h2>@s_a_t_u_r_n_o.online</h2>
+    <button class="btn" (click)="showCart()">X</button>
+  </div>
+</div>
+<div class="container">
+  <div class="wrapper">
+    <app-list-item></app-list-item>
+  </div>
+  <div class="nota">
+    <span>-------------------------------------------------</span>
+    <h4>NOTA FISCAL</h4>
+    <p class="subtitle">
+      Muito obrigado por comprar na minha loja de mentira, mas se puder, segue a
+      de verdade no insta.
+    </p>
+    <p class="subtitle">
+      Para fechar seus pedidos, clique no X abaixo do nome da loja.
+    </p>
+    <span>-------------------------------------------------</span>
+
+    <table style="width: 100%" class="table">
+      <tr>
+        <th>Codigo</th>
+        <th>Descrição</th>
+        <th>Quantidade</th>
+        <th>V. U</th>
+        <th>Desconto</th>
+        <th>Total</th>
+      </tr>
+      <tr *ngFor="let product of products" align="center">
+        <td>{{ product.code }}</td>
+        <td style="width: 300px">{{ product.description }}</td>
+        <td>{{ product.amount }}</td>
+        <td>{{ product.unitValue }}</td>
+        <td>{{ product.retate }} %</td>
+        <td>{{ product.total }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
