@@ -1,0 +1,87 @@
+p {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex: 1;
+  margin: 10px 10px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-quantity {
+  background-color: #240829;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  flex: 1;
+}
+.btn {
+  background-color: #240829;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.value-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.value-item {
+  color: #1dd3b0;
+  font-size: 30px;
+}
+.value-item:hover {
+  color: #10967b;
+}
+.rebate-item {
+  color: #c9c9c9;
+  transition: 0.2s;
+}
+
+.quantity-container {
+  display: flex;
+}
+
+.quantity {
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  text-align: center;
+}
+
+.quantity2 {
+  background-color: #240829;
+  border: none;
+  color: #fff;
+  padding: 5px;
+  width: 50px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #661a74;
+}
+
+select {
+  width: 700px;
+  padding: 20px;
+  margin: 0 20px;
+}
